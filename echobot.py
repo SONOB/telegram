@@ -5,7 +5,7 @@ import logging
 from telegram import Update
 from telegram.ext import Application, ContextTypes, MessageHandler, filters
 
-token = '6176833236:AAGoDeXjeO7KoVL2_zT3pBfaJkLvf01YDvA'
+token = '본인의 Token값을 넣으시면 됩니다.'
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
