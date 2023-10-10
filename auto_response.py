@@ -5,7 +5,7 @@ import logging
 from telegram import Update
 from telegram.ext import Application, ContextTypes, MessageHandler, filters
 
-token = '6176833236:AAGoDeXjeO7KoVL2_zT3pBfaJkLvf01YDvA'
+token = '텔레그램 토큰값'
 
 logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)
 logging.getLogger("httpx").setLevel(logging.WARNING)
